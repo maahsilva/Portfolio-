@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/contacts.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+            <ul class="container-menu">
+                <li class="list-group"><a href="contacts.html">Contatos</a></li>
+                <li class="list-group"><a href="sobreMim.html">Sobre Mim</a></li>
+                <li class="list-group"> <a href="projetos.html">Projetos</a></li>
+                <li class="list-group"> <a href="habilidades.html">Habilidades</a></li>
+            </ul>
+    </header>
+    <main>
+        <div class="container-main">
+            <h1>MARIA CLARA DA SILVA</h1>
+            <img class="img-responsive"src="assets/programadora.png" alt="">
+            <h2>FULL-STACK DEVELOPER</h2>
+        </div>
+        <ul class="container-contacts">
+            <li class="list-contacts">
+                <a href="https://github.com/maahsilva" target="_blank"> <img src="assets/placa-do-github (1).png" alt=""></a>
+                <p>GitHub</p>
+            </li>
+            <li class="list-contacts">
+                <a href="https://www.linkedin.com/in/maria-clara-silva-9ba1aa1ba/" target="_blank"> <img src="assets/logotipo-do-linkedin.png" alt=""></a>
+                <p>Linkedin</p>
+            </li>
+            <li class="list-contacts">
+                <a href="https://wa.me/11953938743" target="_blank"> <img src="assets/whatsapp (3).png" alt=""></a>
+                <p>whatsApp</p>
+            </li>
+            <li class="list-contacts">
+                <a href="assets/CurrículoMariaClara.pdf" target="_blank"> <img src="assets/curriculo.png" alt=""></a>
+                <p>Currículo</p>
+            </li>
+        </ul>
+        <h2 id="formulario-title">Entre em contato</h2>
+        <div class="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+        
+            <input type="submit" value="Enviar" onclick="limparCampos()">
+        </div>
+    </main>
+
+    <script>
+        function limparCampos() {
+            document.getElementById("nome").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("mensagem").value = "";
+        }
+    </script>
+</body>
+</html>

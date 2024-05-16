@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to left top, #6c167a, #000000);
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100vw;
+    height: 10vw;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+
+}
+.container-menu{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.list-group{
+    color: #fff;
+    list-style: none;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+
+.container-projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+
+    
+}
+
+.container-projetos-img{
+    width: 250px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.container-projetos-descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-projetos-descricao p {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.title-projetos{
+    color: #fff;
+}

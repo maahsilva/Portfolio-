@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to left top, #6c167a, #000000);
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100vw;
+    height: 10vw;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}
+.container-menu{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.list-group{
+    color: #fff;
+    list-style: none;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+}
+
+.img-responsive{
+    max-width: 22.5%;
+}
+h1{
+    width: 660px;
+    height: 38px;
+    color: #FFF;
+    font-family: "Inconsolata";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h2{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    list-style: none;
+    margin-top: 4rem;
+    gap: 4rem;
+}
+
+.list-contacts p{
+  color: #FFF;
+  text-align: center;
+  margin-top:0.5rem
+}
+
+
+
+.formulario{
+    text-align: center;
+    max-width:600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario-title{
+    text-align: center;
+    margin-top: 50px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+}
+input[type="submit"] {
+    background-color: #6c167a;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #050505;
+}

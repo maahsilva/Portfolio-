@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to left top, #6c167a, #000000);/* degrade de fundo da pagina*/
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100vw;
+    height: 10vw;
+    position: fixed;/*Mantem o header fixo quando a pagina é rodada*/
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}
+.container-menu{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.list-group{
+    color: #fff;
+    list-style: none;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 15px 500px 15px 500px;
+    border:solid 2px #000000 ;
+    background-color: #000000;
+}
+
+#title{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 220px;
+}
+.container-sobre-mim{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img-sobre-mim{
+    width: 50%;
+}
+
+.container-experiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: #ad9f9f;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top:20px;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container-experiencia-title{
+    color: #FFF;
+    
+}
+

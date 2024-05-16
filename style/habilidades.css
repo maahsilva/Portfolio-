@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to left top, #6c167a, #000000);
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100vw;
+    height: 10vw;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}
+.container-menu{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.list-group{
+    color: #fff;
+    list-style: none;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+h1{
+    color: #fff;
+    padding-top:220px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #fff;
+    padding-top:50px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.img-responsive{
+    width: 90px;
+}
+
+.container-habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-habilidades li{
+    font-size: 20px;
+    color: #fff;
+}
+
+.container-ferramentas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-ferramentas-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.container-ferramentas-name p{
+    color: #fff;
+    font-size: 20px;
+}
